@@ -4,7 +4,7 @@ const WhatWeReplace = ({ heading = "What we replace", images = [] }) => {
   const [ref, inView] = useInView(0.1);
 
   return (
-    <div className="w-full bg-[#000000]">
+    <div className="w-full bg-[#000000] overflow-hidden">
       <div className="max-w-5xl mx-auto px-6 py-16 lg:py-24 flex flex-col gap-10">
         <h2 className="text-white font-medium text-[36px] sm:text-[44px] lg:text-[56px] leading-tight animate-fade-up"
           style={{ opacity: inView ? 1 : 0, transform: inView ? "translateX(0)" : "translateX(-50px)", transition: "opacity 0.7s ease, transform 0.7s ease" }}>

@@ -15,7 +15,7 @@ const ComparisonSection = ({
   });
 
   return (
-    <div className="w-full bg-[#010913]">
+    <div className="w-full bg-[#010913] overflow-hidden">
       <div className="max-w-5xl mx-auto px-6 py-16 lg:py-24">
         <div ref={refH} className="flex flex-col gap-4 max-w-xl" style={slide("left")}>
           <span className="text-[#8E8E97] text-[13px] font-semibold tracking-widest uppercase">{label}</span>

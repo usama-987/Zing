@@ -31,7 +31,7 @@ const ThreePrimitives = ({
   return (
     <>
       {/* Section 1 */}
-      <div className="w-full bg-[#010913]">
+      <div className="w-full bg-[#010913] overflow-hidden">
         <div className="w-full" style={{ borderTop: "1px solid #FFFFFF17" }} />
         <div ref={ref1} className="max-w-5xl mx-auto px-6 py-16 lg:py-24 flex flex-col gap-8">
           <span className="text-[#8E8E97] text-[13px] font-semibold tracking-widest uppercase" style={slide(inView1, "left")}>{label}</span>
@@ -51,7 +51,7 @@ const ThreePrimitives = ({
       </div>
 
       {/* Section 2 */}
-      <div className="w-full bg-[#010913]">
+      <div className="w-full bg-[#010913] overflow-hidden">
         <div className="w-full" style={{ borderTop: "1px solid #FFFFFF17" }} />
         <div ref={ref2} className="max-w-5xl mx-auto px-6 py-16 lg:py-24 flex flex-col items-center gap-8">
           <span className="text-[#8E8E97] text-[13px] font-semibold tracking-widest uppercase text-center" style={fadeUp(inView2)}>{engineeringLabel}</span>
@@ -83,7 +83,7 @@ const ThreePrimitives = ({
       </div>
 
       {/* Section 3 */}
-      <div className="w-full bg-[#010913] mt-0">
+      <div className="w-full bg-[#010913] mt-0 overflow-hidden">
         <div className="w-full" style={{ borderTop: "1px solid #FFFFFF17" }} />
         <div ref={ref3} className="max-w-5xl mx-auto px-6 py-16 lg:py-24 flex flex-col gap-8">
           <span className="text-[#8E8E97] text-[13px] font-semibold tracking-widest uppercase" style={slide(inView3, "left")}>{systemsLabel}</span>

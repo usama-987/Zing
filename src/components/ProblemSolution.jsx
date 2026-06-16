@@ -26,7 +26,7 @@ const ProblemSolution = ({
   });
 
   return (
-    <div className="w-full bg-[#010913]">
+    <div className="w-full bg-[#010913] overflow-hidden">
 
       {/* Section 1 */}
       <div ref={ref1} className="max-w-5xl mx-auto px-6 py-16 lg:py-24 flex flex-col lg:flex-row items-center gap-12">

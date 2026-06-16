@@ -9,7 +9,7 @@ const WhoItsFor = ({
   const [ref, inView] = useInView(0.15);
 
   return (
-    <div className="w-full bg-[#001022]">
+    <div className="w-full bg-[#001022] overflow-hidden">
       <div ref={ref} className="max-w-5xl mx-auto px-6 py-16 lg:py-24 flex flex-col lg:flex-row items-start gap-12 lg:gap-16">
 
         <div className="w-full lg:w-1/2 flex flex-col gap-6"

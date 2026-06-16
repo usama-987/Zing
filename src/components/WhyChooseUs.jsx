@@ -16,7 +16,7 @@ const WhyChooseUs = ({
   });
 
   return (
-    <div className="w-full bg-[#001022]">
+    <div className="w-full bg-[#001022] overflow-hidden">
       <div ref={ref} className="max-w-5xl mx-auto px-6 py-16 lg:py-24 flex flex-col lg:flex-row items-center gap-12">
         <div className="flex-1 flex flex-col gap-8" style={slide("left")}>
           <h2 className="font-medium text-[36px] sm:text-[44px] lg:text-[56px] leading-tight">

@@ -15,7 +15,7 @@ const OutcomesIntegrations = ({
   const [ref2, inView2] = useInView(0.1);
 
   return (
-    <div className="w-full bg-[#010913]">
+    <div className="w-full bg-[#010913] overflow-hidden">
       <div ref={ref1} className="max-w-5xl mx-auto px-6 py-16 lg:py-24 flex flex-col lg:flex-row gap-12 items-start">
         <div className="w-full lg:w-1/2 flex flex-col gap-6"
           style={{ opacity: inView1 ? 1 : 0, transform: inView1 ? "translateX(0)" : "translateX(-50px)", transition: "opacity 0.7s ease, transform 0.7s ease" }}>

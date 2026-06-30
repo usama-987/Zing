@@ -71,8 +71,7 @@ const HeroSection = ({
       {trustedByLogos.length > 0 && (
         <div className="relative z-10 mt-10 w-full flex flex-col sm:flex-row items-center gap-4 sm:gap-0" style={fadeUp(0.75)}>
           {/* Static label — stays in place, logos scroll behind it on sm+ */}
-          <div className="relative z-10 shrink-0 flex items-center sm:self-stretch px-4 sm:pl-8 sm:pr-10"
-            style={{ background: "linear-gradient(to right, black 65%, transparent 100%)" }}>
+          <div className="relative z-10 shrink-0 flex items-center sm:self-stretch px-4 sm:pl-8 sm:pr-10">
             <p className="text-[#8E8E97] text-[11px] font-semibold tracking-widest uppercase whitespace-pre-line text-center sm:text-left leading-4">
               {trustedByLabel}
             </p>
@@ -85,7 +84,8 @@ const HeroSection = ({
                   key={i}
                   src={logo.src}
                   alt={logo.alt}
-                  className="h-10 w-28 object-contain transition-opacity mx-8 sm:mx-10 shrink-0"
+                  className="h-20 w-36 object-contain transition-opacity mx-8 sm:mx-10 shrink-0"
+                  style={{ filter: "brightness(0) invert(1)" }}
                 />
               ))}
             </div>

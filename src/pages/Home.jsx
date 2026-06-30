@@ -48,12 +48,41 @@ import Postgres from "../assets/HeroSec/Postgres.svg";
 import Aws from "../assets/HeroSec/Aws.svg";
 import Supabase from "../assets/HeroSec/Supabase.svg";
 import Noni from "../assets/HeroSec/Noni.svg";
-import Edible from "../assets/HeroSec/Edible.svg";
-import Authentication from "../assets/HeroSec/Authentication.svg";
-import Amanda from "../assets/HeroSec/Amanda.svg";
-import JM from "../assets/HeroSec/JM.svg";
-import Svry from "../assets/HeroSec/Svry.svg";
-import Chkm8 from "../assets/HeroSec/Chkm8.svg";
+
+import Logo24Six from "../assets/HeroSec/New-svg/24-six-logo.svg";
+import BrightSaverLogo from "../assets/HeroSec/New-svg/bright-saver-logo.svg";
+import Frame54 from "../assets/HeroSec/New-svg/Frame 54.svg";
+import Frame55 from "../assets/HeroSec/New-svg/Frame 55.svg";
+import Frame56 from "../assets/HeroSec/New-svg/Frame 56.svg";
+import Frame57 from "../assets/HeroSec/New-svg/Frame 57.svg";
+import Frame58 from "../assets/HeroSec/New-svg/Frame 58.svg";
+import Frame59 from "../assets/HeroSec/New-svg/Frame 59.svg";
+import Frame60 from "../assets/HeroSec/New-svg/Frame 60.svg";
+import Frame61 from "../assets/HeroSec/New-svg/Frame 61.svg";
+import Frame62 from "../assets/HeroSec/New-svg/Frame 62.svg";
+import Frame63 from "../assets/HeroSec/New-svg/Frame 63.svg";
+import Frame64 from "../assets/HeroSec/New-svg/Frame 64.svg";
+import Frame65 from "../assets/HeroSec/New-svg/Frame 65.svg";
+import Frame66 from "../assets/HeroSec/New-svg/Frame 66.svg";
+import Frame67 from "../assets/HeroSec/New-svg/Frame 67.svg";
+import Frame68 from "../assets/HeroSec/New-svg/Frame 68.svg";
+import Frame69 from "../assets/HeroSec/New-svg/Frame 69.svg";
+import Frame70 from "../assets/HeroSec/New-svg/Frame 70.svg";
+import Frame71 from "../assets/HeroSec/New-svg/Frame 71.svg";
+import Frame72 from "../assets/HeroSec/New-svg/Frame 72.svg";
+import Frame73 from "../assets/HeroSec/New-svg/Frame 73.svg";
+import Frame74 from "../assets/HeroSec/New-svg/Frame 74.svg";
+import HealthcareLogo from "../assets/HeroSec/New-svg/Healthcare-logo.svg";
+import PalmtreeLogo from "../assets/HeroSec/New-svg/palmtree-logo.svg";
+import PerfumologyLogo from "../assets/HeroSec/New-svg/Perfumology-logo.svg";
+import RealGeeks from "../assets/HeroSec/New-svg/realgeeks.svg";
+import Trusted1 from "../assets/HeroSec/New-svg/Trusted1.svg";
+import Trusted2 from "../assets/HeroSec/New-svg/Trusted2.svg";
+import Trusted3 from "../assets/HeroSec/New-svg/Trusted3.svg";
+import Trusted4 from "../assets/HeroSec/New-svg/Trusted4.svg";
+import Trusted5 from "../assets/HeroSec/New-svg/Trusted5.svg";
+import Trusted6 from "../assets/HeroSec/New-svg/Trusted6.svg";
+import Trusted7 from "../assets/HeroSec/New-svg/Trusted7.svg";
 
 const buildWithIcons = [
   { src: Chatgpt, alt: "ChatGPT" },
@@ -68,12 +97,40 @@ const buildWithIcons = [
 ];
 
 const trustedByLogos = [
-  { src: Edible, alt: "Edible" },
-  { src: Authentication, alt: "Authentic" },
-  { src: Svry, alt: "Svry Nutrition" },
-  { src: JM, alt: "JM Packaging" },
-  { src: Amanda, alt: "Amanda Monro" },
-  { src: Chkm8, alt: "Chkm8" },
+  { src: Logo24Six, alt: "24 Six" },
+  { src: BrightSaverLogo, alt: "Bright Saver" },
+  { src: Frame54, alt: "Brand 54" },
+  { src: Frame55, alt: "Brand 55" },
+  { src: Frame56, alt: "Brand 56" },
+  { src: Frame57, alt: "Brand 57" },
+  { src: Frame58, alt: "Brand 58" },
+  { src: Frame59, alt: "Brand 59" },
+  { src: Frame60, alt: "Brand 60" },
+  { src: Frame61, alt: "Brand 61" },
+  { src: Frame62, alt: "Brand 62" },
+  { src: Frame63, alt: "Brand 63" },
+  { src: Frame64, alt: "Brand 64" },
+  { src: Frame65, alt: "Brand 65" },
+  { src: Frame66, alt: "Brand 66" },
+  { src: Frame67, alt: "Brand 67" },
+  { src: Frame68, alt: "Brand 68" },
+  { src: Frame69, alt: "Brand 69" },
+  { src: Frame70, alt: "Brand 70" },
+  { src: Frame71, alt: "Brand 71" },
+  { src: Frame72, alt: "Brand 72" },
+  { src: Frame73, alt: "Brand 73" },
+  { src: Frame74, alt: "Brand 74" },
+  { src: HealthcareLogo, alt: "Healthcare" },
+  { src: PalmtreeLogo, alt: "Palm Tree" },
+  { src: PerfumologyLogo, alt: "Perfumology" },
+  { src: RealGeeks, alt: "Real Geeks" },
+  { src: Trusted1, alt: "Trusted 1" },
+  { src: Trusted2, alt: "Trusted 2" },
+  { src: Trusted3, alt: "Trusted 3" },
+  { src: Trusted4, alt: "Trusted 4" },
+  { src: Trusted5, alt: "Trusted 5" },
+  { src: Trusted6, alt: "Trusted 6" },
+  { src: Trusted7, alt: "Trusted 7" },
 ];
 
 const stats = [

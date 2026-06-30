@@ -25,7 +25,7 @@ const WhyChooseUs = ({
           </h2>
           <ul className="flex flex-col gap-4">
             {points.map((point, i) => (
-              <li key={i} className="flex items-center gap-3"
+              <li key={i} className="flex items-center gap-10"
                 style={{ opacity: inView ? 1 : 0, transform: inView ? "translateX(0)" : "translateX(-30px)", transition: `opacity 0.5s ease ${0.1 + i * 0.08}s, transform 0.5s ease ${0.1 + i * 0.08}s` }}
               >
                 <span className="text-[#2E6EFE] text-[16px] shrink-0">✓</span>
@@ -33,6 +33,7 @@ const WhyChooseUs = ({
               </li>
             ))}
           </ul>
+          <span className="block w-full border-t border-white/10"></span>
         </div>
         {image && (
           <div className="flex-1 flex justify-center lg:justify-end" style={slide("right", 0.15)}>

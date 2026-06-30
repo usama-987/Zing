@@ -52,7 +52,7 @@ const HeroSection = ({
           )}
           {headingEnd && <span> {headingEnd}</span>}
         </h1>
-        {subtext && <p className="text-[#D4D4D8] text-[15px] sm:text-[18px] lg:text-[21px] max-w-2xl leading-relaxed px-2" style={fadeUp(0.3)}>{subtext}</p>}
+        {subtext && <p className="text-[#D4D4D8] text-[15px] sm:text-[18px] lg:text-[21px] max-w-3xl leading-relaxed px-2" style={fadeUp(0.3)}>{subtext}</p>}
         {(primaryCTA || secondaryCTA) && (
           <div className="flex flex-col sm:flex-row items-center gap-3 flex-wrap justify-center" style={fadeUp(0.45)}>
             {primaryCTA && <Button onClick={onPrimaryCTA} className="font-semibold text-[16px] w-full sm:w-auto" style={{ background: "linear-gradient(180deg, #0A19AD 0%, #2B8EF8 100%)" }}>{primaryCTA}</Button>}
@@ -61,7 +61,7 @@ const HeroSection = ({
         )}
         {buildWithIcons.length > 0 && (
           <div className="flex flex-col items-center gap-4 mt-2 w-full" style={fadeUp(0.6)}>
-            <div className="flex items-center gap-3 flex-wrap justify-center">
+            <div className="flex items-center gap-8 flex-wrap justify-center">
               <span className="text-[#71717A] text-[11px] font-semibold tracking-widest uppercase w-full sm:w-auto text-center sm:text-left">{buildWithLabel}</span>
               {buildWithIcons.map((icon, i) => <img key={i} src={icon.src} alt={icon.alt} className="w-6 h-6 sm:w-7 sm:h-7 object-contain opacity-80 hover:opacity-100 transition-opacity" />)}
             </div>
@@ -85,7 +85,7 @@ const HeroSection = ({
                   key={i}
                   src={logo.src}
                   alt={logo.alt}
-                  className="h-7 w-28 object-contain brightness-0 invert opacity-70 hover:opacity-100 transition-opacity mx-8 sm:mx-10 shrink-0"
+                  className="h-10 w-28 object-contain transition-opacity mx-8 sm:mx-10 shrink-0"
                 />
               ))}
             </div>

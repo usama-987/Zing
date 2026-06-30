@@ -241,10 +241,42 @@ const Home = () => {
       />
       <Footer
         columns={[
-          { links: [{ label: "Press" }, { label: "Contact" }] },
-          { links: [{ label: "Data layer" }, { label: "Security" }] },
-          { links: [{ label: "Finance" }, { label: "Commerce" }] },
-          { links: [{ label: "SOC 2" }, { label: "DPA" }] },
+          {
+            title: "Company",
+            links: [
+              { label: "About" },
+              { label: "Careers" },
+              { label: "Press" },
+              { label: "Contact" },
+            ],
+          },
+          {
+            title: "Platform",
+            links: [
+              { label: "Architecture" },
+              { label: "Agents" },
+              { label: "Data layer" },
+              { label: "Security" },
+            ],
+          },
+          {
+            title: "Solutions",
+            links: [
+              { label: "Operations" },
+              { label: "Revenue ops" },
+              { label: "Finance" },
+              { label: "Commerce" },
+            ],
+          },
+          {
+            title: "Legal",
+            links: [
+              { label: "Privacy" },
+              { label: "Terms" },
+              { label: "SOC 2" },
+              { label: "DPA" },
+            ],
+          },
         ]}
       />
     </div>

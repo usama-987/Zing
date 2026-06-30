@@ -183,16 +183,18 @@ const Home = () => {
           "Build software around your business, not someone else's",
         ]}
       />
-      <WhatWeReplace
-        images={[
-          { src: Img6, alt: "Replace 1" },
-          { src: Img7, alt: "Replace 2" },
-          { src: Img8, alt: "Replace 3" },
-        ]}
-      />
       <ThreePrimitives
         subtext="Every Zing deployment is composed from the same three building blocks. They scale from a single workflow to an entire operations layer — without rewrites."
         image={Img9}
+        middleSlot={
+          <WhatWeReplace
+            images={[
+              { src: Img6, alt: "Replace 1" },
+              { src: Img7, alt: "Replace 2" },
+              { src: Img8, alt: "Replace 3" },
+            ]}
+          />
+        }
         engineeringSubtext={"Custom software used to mean months of scoping and a six-figure invoice.\nWith AI-native engineering, the calculus has fundamentally shifted."}
         cards={[
           { icon: CompressIcon, title: "Compress timelines", description: "What took a quarter ships in a week. Specs become working systems in the same session." },

@@ -5,6 +5,7 @@ const ThreePrimitives = ({
   label = "ANATOMY", headingLine1 = "Three primitives.",
   headingLine2Start = "One", headingLine2Highlight = "system.",
   highlightColor = "#2E6EFE", subtext, image,
+  middleSlot,
   engineeringLabel = "ENGINEERING",
   engineeringHeadingHighlight = "AI-assisted engineering",
   engineeringHeadingRest = " allows production systems to ship in days instead of months",
@@ -49,6 +50,8 @@ const ThreePrimitives = ({
         </div>
         <div className="w-full" style={{ borderBottom: "1px solid #FFFFFF17" }} />
       </div>
+
+      {middleSlot && middleSlot}
 
       {/* Section 2 */}
       <div className="w-full bg-[#010913] overflow-hidden">
